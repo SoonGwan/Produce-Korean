@@ -8,10 +8,11 @@
 import { Carousel, Radio } from 'antd';
 import React from 'react';
 import './MainCarousel.css';
+import 'antd/dist/antd.css';
 
 class MainCarousel extends React.Component {
   state = {
-    dotPosition: 'top',
+    dotPosition: 'right',
   };
 
   handlePositionChange = ({ target: { value: dotPosition } }) =>
@@ -21,16 +22,6 @@ class MainCarousel extends React.Component {
     const { dotPosition } = this.state;
     return (
       <div>
-        <Radio.Group
-          onChange={this.handlePositionChange}
-          value={dotPosition}
-          style={{ marginBottom: 8 }}
-        >
-          <Radio.Button value="top">Top</Radio.Button>
-          <Radio.Button value="bottom">Bottom</Radio.Button>
-          <Radio.Button value="left">Left</Radio.Button>
-          <Radio.Button value="right">Right</Radio.Button>
-        </Radio.Group>
         <Carousel dotPosition={dotPosition}>
           <div>
             <h3>1</h3>
