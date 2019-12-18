@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+.NavCome {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  text-decoration: none;
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+
+    li {
+      display: inline-block;
+      border: 1px solid black;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: black;
+      justify-content: space-between;
+    }
+    li:active {
+      color: grey;
+    }
+  }
+}

@@ -8,3 +8,11 @@
 .labelColor {
   color: whitesmoke;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px !important;
+  // background: no-repeat 50%/100% 100%;
+}
