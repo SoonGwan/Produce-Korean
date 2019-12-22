@@ -6,13 +6,20 @@ function MainNav() {
     <div className="NavCome">
       <ul>
         <Link to="/main" style={{ textDecoration: 'none' }}>
-          <li>메인</li>
+          <li>Main</li>
         </Link>
-        <Link to="/about" style={{ textDecoration: 'none' }}>
-          <li>여라가지</li>
+        <Link to="/seoul" style={{ textDecoration: 'none' }}>
+          <li>Seoul</li>
         </Link>
-        <Link to="/test" style={{ textDecoration: 'none' }}>
-          <li>다른거</li>
+        <Link to="/daejeon" style={{ textDecoration: 'none' }}>
+          <li>Daejeon</li>
+        </Link>
+        <Link to="/daegu" style={{ textDecoration: 'none' }}>
+          <li>Daegu</li>
+        </Link>
+
+        <Link to="/busan" style={{ textDecoration: 'none' }}>
+          <li>Busan</li>
         </Link>
       </ul>
     </div>
