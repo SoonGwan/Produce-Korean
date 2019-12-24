@@ -40,6 +40,8 @@ body {
       transition: all 0.3s ease-in-out;
       transition-timing-function: linear;
       margin-left: 3%;
+      top: -4%;
+      position: relative;
     }
     li:active {
       color: rgba(255, 255, 255, 0.596);
@@ -47,6 +49,8 @@ body {
 
     li:hover {
       font-size: 1.6rem;
+      top: -4%;
+      position: relative;
       //   margin: 0 auto;
       // margin-right: 3%;
       // margin-left: 3.3%;

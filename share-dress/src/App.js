@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/MainNav/MainNav';
 import Seoul from './components/routes/SeoulRoute';
 import BootRoute from './components/routes/BootRoute';
+import DaejeonRoute from './components/routes/DaejeonRoute';
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/main" component={BootRoute} />
         <Route exact path="/seoul" component={Seoul} />
+        <Route exact path="/daejeon" component={DaejeonRoute} />
       </Switch>
     </Router>
 

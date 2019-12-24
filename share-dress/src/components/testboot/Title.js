@@ -6,12 +6,10 @@ function Title() {
       <div class="sp-container">
         <div class="sp-content">
           <div class="sp-globe"></div>
-          <h2 class="frame-1">Who says the nights are for sleeping</h2>
-          <h2 class="frame-2">
-            I'm not lazy <br /> I'm just on my energy saving mode
-          </h2>
-          <h2 class="frame-3">ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ</h2>
-          <h2 class="frame-4">:ㅇㅇㅇㅇㅇㅇ4</h2>
+          <h2 class="frame-1">Largets metropolis of Korea</h2>
+          <h2 class="frame-2">Located in the center of Korea</h2>
+          <h2 class="frame-3">Be where U want to be</h2>
+          <h2 class="frame-4">Experience</h2>
           <h2 class="frame-5">
             <span>NEVER </span>
             <span>SAY </span>
