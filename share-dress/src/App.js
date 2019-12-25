@@ -9,6 +9,7 @@ import Seoul from './components/routes/SeoulRoute';
 import BootRoute from './components/routes/BootRoute';
 import DaejeonRoute from './components/routes/DaejeonRoute';
 import DaeguRoute from './components/routes/DaeguRoute';
+import BusanRoute from './components/routes/BusanRoute';
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/seoul" component={Seoul} />
         <Route exact path="/daejeon" component={DaejeonRoute} />
         <Route exact path="/daegu" component={DaeguRoute} />
+        <Route exact path="/busan" component={BusanRoute} />
       </Switch>
     </Router>
 
